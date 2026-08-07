@@ -10,8 +10,8 @@ La novedad de esta versión es que el taller se divide en **dos notebooks comple
 
 | Notebook | Dataset | Tipo de datos | ¿Hay etiqueta? |
 |---|---|---|---|
-| [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) | [`data/mushrooms.csv`](data/mushrooms.csv) | Categóricos | Sí — `class` (solo para **validar**) |
-| [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) | [`data/credit_card.csv`](data/credit_card.csv) | Numéricos | No — segmentación **de verdad** |
+| [`clustering-Mushrooms.ipynb`](clustering-Mushrooms.ipynb) | [`data/mushrooms.csv`](data/mushrooms.csv) | Categóricos | Sí — `class` (solo para **validar**) |
+| [`clustering-Creditcard.ipynb`](clustering-Creditcard.ipynb) | [`data/credit_card.csv`](data/credit_card.csv) | Numéricos | No — segmentación **de verdad** |
 
 > Hay que entregar **los dos notebooks**. No son independientes: la Parte 2 da por sabido lo aprendido en la Parte 1.
 
@@ -19,7 +19,7 @@ La novedad de esta versión es que el taller se divide en **dos notebooks comple
 
 ## 🍄 Parte 1 — Setas (datos categóricos, *con* etiqueta)
 
-**Notebook:** [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) · **Dataset:** [`data/mushrooms.csv`](data/mushrooms.csv)
+**Notebook:** [`clustering-Mushrooms.ipynb`](clustering-Mushrooms.ipynb) · **Dataset:** [`data/mushrooms.csv`](data/mushrooms.csv)
 🔗 [Mushroom Dataset (Kaggle)](https://www.kaggle.com/uciml/mushroom-classification) · [UCI](https://archive.ics.uci.edu/ml/datasets/Mushroom)
 
 Cada fila es un hongo descrito con **~22 variables, todas categóricas** (forma, color, olor, etc.). La variable `class` es **binaria**: `e` (comestible) / `p` (venenoso).
@@ -40,7 +40,7 @@ La clave pedagógica: **tenemos etiqueta, pero el clustering NO la usa**. La res
 
 ## 💳 Parte 2 — Tarjetas de crédito (datos numéricos, *sin* etiqueta)
 
-**Notebook:** [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) · **Dataset:** [`data/credit_card.csv`](data/credit_card.csv)
+**Notebook:** [`clustering-Creditcard.ipynb`](clustering-Creditcard.ipynb) · **Dataset:** [`data/credit_card.csv`](data/credit_card.csv)
 🔗 [Credit Card Dataset for Clustering (Kaggle)](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
 
 Comportamiento de uso de ~9.000 titulares de tarjeta durante 6 meses, con **17 variables numéricas** (saldo, compras, adelantos de efectivo, límite, pagos…).
